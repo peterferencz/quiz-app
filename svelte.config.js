@@ -7,8 +7,12 @@ const config = {
 			out: "app",
 			pages: 'build',
       		assets: 'build',
+			fallback: null,
 			strict: true,
 		}),
+		paths: {
+			base: "/quiz-app",
+		},
 	},
 	
 };
