@@ -51,7 +51,7 @@
 		color: var(--text);
         border: 1px solid var(--text);
     }
-    button{
+    /* button{
         border: 1px dashed gray;
         padding: .5rem;
         background-color: transparent;
@@ -59,5 +59,5 @@
     }
     button:hover{
         background-color: var(--background-hover);
-    }
+    } */
 </style>

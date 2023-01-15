@@ -1,10 +1,16 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter(),
-	}
+		adapter: adapter({
+			out: "app",
+			pages: 'build',
+      		assets: 'build',
+			strict: true,
+		}),
+	},
+	
 };
 
 export default config;

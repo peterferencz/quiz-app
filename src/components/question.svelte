@@ -41,7 +41,7 @@
             <input autofocus="true" on:keypress={(e) => {if(e.key == "Enter"){answerQuestion()}}} on:submit={answerQuestion} bind:value={input}>
             <button on:click={answerQuestion}>Submit</button>
         </div>
-        <p id="skip" on:click={skip}>Skip</p>
+        <p id="skip" on:click={skip} on:keypress={(e) => {if(e.key == "Enter"){skip()}}}>Skip</p>
     </div>
 {:else}
     <div>

@@ -8,7 +8,6 @@
     import Toolbar from "../components/toolbar.svelte";
     import { preferences } from "../stores/preferences";
 
-
     onMount(() => {
         document.body.classList.toggle('dark-mode', $preferences.darktheme)
         // if($preferences.darktheme){
