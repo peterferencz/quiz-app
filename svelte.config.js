@@ -10,7 +10,6 @@ const config = {
 			strict: true,
 		}),
 		appDir: "app",
-		
 		paths: {
 			base: "/quiz-app",
 		},

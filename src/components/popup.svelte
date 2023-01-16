@@ -1,5 +1,6 @@
 <script>
     import { fade } from 'svelte/transition';
+    import Icon from './icon.svelte';
 
     export let close = () => {}
 </script>
@@ -9,7 +10,8 @@
     <div id="content">
         <div id="inner">
             <button class="close" on:click={close}>
-                <img src="/icons/icon_close.svg" alt="close">
+                <Icon name="close"/>
+                <!-- <img src="icons/icon_close.svg" alt="close"> -->
             </button>
             <slot/>
         </div>
@@ -17,9 +19,6 @@
 </div>
 
 <style>
-img{
-    filter: var(--filter);
-}
 .close{
     position: absolute;
     right: .5rem;

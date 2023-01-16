@@ -1,5 +1,6 @@
 <script>
-    import Solutioninputsolution from "./solutioninputsolution.svelte";
+    import Icon from "./icon.svelte";
+import Solutioninputsolution from "./solutioninputsolution.svelte";
 
     export let questions = []
 
@@ -10,7 +11,7 @@
 
 <div id="container">
     <div class="header">
-        <img src="/icons/icon_descriptions.svg" alt="paper">
+        <Icon name="document"/>
         <h1>Solutions</h1>
     </div>
     <div id="questions">
@@ -26,9 +27,6 @@
 </div>
 
 <style>
-    img{
-        filter: var(--filter);
-    }
     .header{
         display: flex;
         flex-direction: row;

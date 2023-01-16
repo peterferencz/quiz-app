@@ -1,22 +1,23 @@
 <script>
+    import Icon from "./icon.svelte";
+
 
 export let itemClick = () => {}
 
 </script>
 <div id="toolbar">
     <button on:click={itemClick("solutions")}>
-        <img src="/icons/icon_descriptions.svg" alt="paper">
+        <Icon name="document"/>
+        <!-- <img src="./icons/icon_descriptions.svg" alt="paper"> -->
     </button>
     <button on:click={itemClick("settings")}>
-        <img src="/icons/icon_settings.svg" alt="gears">
+        <Icon name="settings"/>
+        <!-- <img src="./icons/icon_settings.svg" alt="gears"> -->
     </button>
 </div>
 
 <style>
-    img{
-        filter: var(--filter);
-        height: 2rem;
-    }
+    /* height: 2rem; */
     #toolbar{
         width: 100%;
         display: flex;

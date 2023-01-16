@@ -1,12 +1,14 @@
 <script>
     import { preferences } from "../stores/preferences";
+    import Icon from "./icon.svelte";
 
     $:{
         document.body.classList.toggle('dark-mode', $preferences.darktheme)
     }
 </script>
 <div class="header">
-    <img src="/icons/icon_settings.svg" alt="gears">
+    <Icon name="settings"/>
+    <!-- <img src="./icons/icon_settings.svg" alt="gears"> -->
     <h1>Settings</h1>
 </div>
 <div class="horizontal">
@@ -27,9 +29,6 @@
 </div>
 
 <style>
-    img{
-        filter: var(--filter);
-    }
     .header{
         display: flex;
         flex-direction: row;
