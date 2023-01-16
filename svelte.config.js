@@ -4,12 +4,13 @@ import adapter from '@sveltejs/adapter-static';
 const config = {
 	kit: {
 		adapter: adapter({
-			out: "app",
 			pages: 'build',
       		assets: 'build',
 			fallback: null,
 			strict: true,
 		}),
+		appDir: "app",
+		
 		paths: {
 			base: "/quiz-app",
 		},
