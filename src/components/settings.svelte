@@ -6,7 +6,7 @@
     }
 </script>
 <div class="header">
-    <img src="./icon_settings.svg" alt="gears">
+    <img src="/icons/icon_settings.svg" alt="gears">
     <h1>Settings</h1>
 </div>
 <div class="horizontal">

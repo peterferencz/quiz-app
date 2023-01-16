@@ -10,7 +10,7 @@
 
 <div id="container">
     <div class="header">
-        <img src="./icon_descriptions.svg" alt="paper">
+        <img src="/icons/icon_descriptions.svg" alt="paper">
         <h1>Solutions</h1>
     </div>
     <div id="questions">

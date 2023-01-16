@@ -5,10 +5,10 @@ export let itemClick = () => {}
 </script>
 <div id="toolbar">
     <button on:click={itemClick("solutions")}>
-        <img src="./icon_descriptions.svg" alt="paper">
+        <img src="/icons/icon_descriptions.svg" alt="paper">
     </button>
     <button on:click={itemClick("settings")}>
-        <img src="./icon_settings.svg" alt="gears">
+        <img src="/icons/icon_settings.svg" alt="gears">
     </button>
 </div>
 

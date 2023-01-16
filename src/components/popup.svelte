@@ -9,7 +9,7 @@
     <div id="content">
         <div id="inner">
             <button class="close" on:click={close}>
-                <img src="./icon_close.svg" alt="close">
+                <img src="/icons/icon_close.svg" alt="close">
             </button>
             <slot/>
         </div>
